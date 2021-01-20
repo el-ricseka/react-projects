@@ -34,7 +34,7 @@ const ColorGenerator = () => {
       <div className="flex flex-col h-screen bg-gray-100">
         <header className="flex shrink-0 items-center h-16 bg-white shadow-lg px-8 border-b border-gray-200">
           <h1 className="font-extrabold text-2xl text-indigo-500">
-            Color Generator
+            ErColor Generator
           </h1>
           <form className="flex-1 pl-12" onSubmit={handleSubmit}>
             <input

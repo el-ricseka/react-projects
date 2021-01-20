@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Slider from "./pages/Slider";
 import Home from "./pages/Home";
 import ColorGenerator from "./pages/ColorGenerator";
+import GloceryBud from "./pages/GloceryBud";
+import Navbar from "./pages/Navbar";
 import Error from "./pages/Error";
 
 const App = () => {
@@ -19,6 +21,14 @@ const App = () => {
 
         <Route path="/color-generator">
           <ColorGenerator />
+        </Route>
+
+        <Route path="/glocery-bud">
+          <GloceryBud />
+        </Route>
+
+        <Route path="/navbar">
+          <Navbar />
         </Route>
 
         <Route path="*">

@@ -16,6 +16,14 @@ function Home() {
           <li className="hover:underline text-gray-500 font-semibold pb-1">
             <Link to="/color-generator">&bull; &nbsp;Color Generator</Link>
           </li>
+
+          <li className="hover:underline text-gray-500 font-semibold pb-1">
+            <Link to="/glocery-bud">&bull; &nbsp;Glocery Bud</Link>
+          </li>
+
+          <li className="hover:underline text-gray-500 font-semibold pb-1">
+            <Link to="/navbar">&bull; &nbsp;Navbar</Link>
+          </li>
         </ul>
       </div>
     </>
